@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    line-height: 1.5;
+}
+
+/* ================= HEADER ================= */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #30363d;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    color: #8b949e;
+}
+
+/* ================= TITRES ================= */
+h2 {
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #1f6feb;
+}
+
+h3 {
+    color: #e6edf3;
+}
+
+/* ================= TOP CARDS ================= */
+.top-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    max-width: 1300px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.mini-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #e6edf3;
+    transition: 0.25s;
+    text-align: center;
+}
+
+/* couleurs bande gauche */
+.c1 { border: 5px solid #13acff; }
+.c2 { border: 5px solid #9830fa; }
+.c3 { border: 5px solid #fe8903; }
+.c4 { border: 5px solid #3eff85; }
+.c5 { border: 5px solid #f4f814; }
+.c6 { border: 5px solid #898d8c; }
+
+/* ================= RNCP ================= */
+.rncp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.rncp-card {
+    background: #30363d;
+    border: 1px solid #30363d;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.rncp-card-bleu-clair {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-left: 4px solid #13acff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.rncp-card-violet {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-left: 4px solid #9830fa;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.rncp-card-orange {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-left: 4px solid #fe8903;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.rncp-card-bleu-fonce {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-left: 4px solid #0b3cff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.rncp-card-vert {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-left: 4px solid #3eff85;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.rncp-card-jaune {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-left: 4px solid #f4f814;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+
+/* ================= PROJECTS ================= */
+.projects {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.project {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    background: #15335f2d;
+    border: 1px solid #30363d;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.card.ok {
+    border-color: #1f6feb;
+    color: #1f6feb;
+    margin-top: 20px;
+}
+
+
+.mission-card h4 {
+    text-align: center;
+}
+
+.mission-card {
+    background: #30363d;
+    border: 1px solid #30363d;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.mission-card .btn-mission {
+    padding-top: 10px;
+}
+
+
+.mission-card .m {
+    flex: 1 1 250px;
+    max-width: 100%;
+}
+
+.mission-card .m {
+    background-color: #717c941f;
+    border: 2px solid #55678f;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+.mission-card .m img {
+    border-radius: 8px;
+    max-width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mission-card p {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.context-card {
+    background: #53e8b114;
+    border: 1px solid #53e8b1;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+    margin-top: 20px;
+    flex-direction: row;
+    max-width: auto;
+}
+
+.context-card h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.context-card p {
+    text-align: justify;
+    padding: 0px 20px 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.19);
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
+    margin-top: 40px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: row;
+        max-width: auto;
+        align-items: center;
+    }
+}
